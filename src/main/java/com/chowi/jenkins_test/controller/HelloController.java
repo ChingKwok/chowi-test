@@ -13,4 +13,10 @@ public class HelloController {
     public String sayHello(){
         return "Hi! Jenkins";
     }
+
+    @RequestMapping(value = "sing")
+    @ResponseBody
+    public String sing(){
+        return "la la la la la~~~";
+    }
 }
