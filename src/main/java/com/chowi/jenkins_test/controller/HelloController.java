@@ -8,6 +8,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value = "hello")
 public class HelloController {
 
+    @RequestMapping("/")
+    public String index() {
+        return "Hello Docker!";
+    }
+
     @RequestMapping(value = "say")
     @ResponseBody
     public String sayHello(){
