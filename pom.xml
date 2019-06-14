@@ -10,9 +10,8 @@
 	</parent>
 	<packaging>war</packaging>
 	<groupId>com.chowi</groupId>
-	<artifactId>jenkins_test</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>jenkins_test</name>
+	<artifactId>jenkins-test</artifactId>
+	<name>jenkins-test</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
