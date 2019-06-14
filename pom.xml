@@ -11,6 +11,7 @@
 	<packaging>war</packaging>
 	<groupId>com.chowi</groupId>
 	<artifactId>jenkins-test</artifactId>
+	<version>1.0.0</version>
 	<name>jenkins-test</name>
 	<description>Demo project for Spring Boot</description>
 
