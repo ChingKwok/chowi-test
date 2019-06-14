@@ -19,4 +19,10 @@ public class HelloController {
     public String sing(){
         return "la la la la la~~~";
     }
+
+    @RequestMapping(value = "fuck")
+    @ResponseBody
+    public String fuck(){
+        return "u mother fly";
+    }
 }
